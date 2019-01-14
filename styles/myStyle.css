@@ -1,0 +1,41 @@
+.body {
+  background-color: #333333;
+  color: #fff;
+}
+
+.navbar {
+  border-bottom: #008ed6 3px solid;
+}
+
+#home-section {
+  background-image: url('../images/office-594132_1280.jpg');  
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 80vh;
+  
+}
+
+#home-section.dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100;
+  background-color: rgba(0, 0, 0, 0, 0.8);
+}
+
+#home-section {
+
+  padding-top: 100px;
+  min-height: 100vh;
+}
+
+#home-section.fas{
+color:cornflowerblue;
+background: #fff;
+
+}
+
+img .img-front{
+  margin-top: 10px;
+}
